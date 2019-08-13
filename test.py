@@ -1,7 +1,7 @@
 print(123)
-import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('Agg')
+import matplotlib as mpl
+mpl.use('Agg')
+from matplotlib import pylot 
 plt.ioff()
 ax = plt.figure()
 plt.plot([1,2,3],[4,5,6])
